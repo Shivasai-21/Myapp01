@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MyPipelineProject01</title>
+    <meta charset="UTF-8">
+    <title>Myapp01 Deployment</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #2e8b57, #1e3c72);
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .details {
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+        .highlight {
+            background: rgba(255,255,255,0.1);
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #ddd;
+        }
+    </style>
 </head>
 <body>
-    <h1>Deployment Successful!</h1>
-    <p>This page is served from Jenkins deployment via Nginx.</p>
+    <h1>🚀 Deployment Successful!</h1>
+    <div class="details">
+        This project is continuously integrated and deployed<br>
+        using <strong>Jenkins</strong> and served via <strong>Nginx</strong>.
+    </div>
+    <div class="highlight">
+        Build Number: ${BUILD_NUMBER}<br>
+        Deployed at: ${BUILD_TIMESTAMP}
+    </div>
+    <div class="footer">
+        Proudly showcasing CI/CD automation on LinkedIn ✨
+    </div>
 </body>
 </html>
