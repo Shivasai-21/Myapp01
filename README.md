@@ -2,23 +2,18 @@
 
 This repository demonstrates **Continuous Integration & Delivery (CI/CD)** using **Jenkins** and **Nginx**.
 
-## ✅ Deployment Status
-Every commit triggers a Jenkins pipeline that:
-1. Clones the repository
-2. Builds the project with Maven
-3. Deploys the latest build artifacts into Nginx’s document root
+## ✅ Deployment Workflow
+- Code changes are pushed to GitHub
+- Jenkins pipeline automatically:
+  1. Clones the repository
+  2. Builds the project with Maven
+  3. Deploys the latest build artifacts
 
-### Latest Deployment
+## 📊 Build Information
 - **Build Number:** ${BUILD_NUMBER}
 - **Deployed At:** ${BUILD_TIMESTAMP}
 
 *(These values are injected automatically by Jenkins during each pipeline run.)*
-
-## 🌐 Live Demo
-Visit the deployed project here:  
-`http://<your-server-ip>/`
-
-You’ll see a success page confirming the deployment.
 
 ## 🛠️ Tools & Technologies
 - Jenkins (Pipeline automation)
