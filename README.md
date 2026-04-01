@@ -1,6 +1,6 @@
 # 🚀 Myapp01 CI/CD Project
 
-This repository demonstrates **Continuous Integration & Delivery (CI/CD)** using **Jenkins** and **Nginx**.
+This repository demonstrates **Continuous Integration & Delivery (CI/CD)** using **Jenkins** and **Nginx** on an **Ubuntu server**.
 
 ## ✅ Deployment Workflow
 - Code changes are pushed to GitHub
@@ -16,10 +16,17 @@ This repository demonstrates **Continuous Integration & Delivery (CI/CD)** using
 *(These values are injected automatically by Jenkins during each pipeline run.)*
 
 ## 🛠️ Tools & Technologies
-- Jenkins (Pipeline automation)
-- Maven (Build tool)
-- Nginx (Web server)
-- GitHub (Source control)
+- Ubuntu (server environment)
+- Jenkins (pipeline automation)
+- Maven (build tool)
+- Nginx (web server)
+- GitHub (source control)
+
+## 🎯 Learning Outcomes
+- Hands‑on experience with CI/CD pipelines
+- Automated builds and deployments on Linux
+- Integration of Jenkins with GitHub for source control
+- Serving applications via Nginx
 
 ---
 
